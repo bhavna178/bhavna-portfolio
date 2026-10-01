@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bhavna | Graphic Designer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b14;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      background:
+        radial-gradient(circle at top right, #6c3cff55, transparent 35%),
+        radial-gradient(circle at bottom left, #ff3cac33, transparent 35%),
+        #0b0b14;
+    }
+
+    .hero {
+      max-width: 900px;
+    }
+
+    .small-title {
+      color: #b69cff;
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(50px, 10vw, 100px);
+      margin-bottom: 10px;
+    }
+
+    h1 span {
+      color: #a77bff;
+    }
+
+    .hero h2 {
+      font-size: clamp(22px, 4vw, 38px);
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #c9c9d4;
+      font-size: 18px;
+    }
+
+    .buttons {
+      margin-top: 35px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 14px 25px;
+      border-radius: 30px;
+      margin: 7px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: #8d5cff;
+      color: white;
+    }
+
+    .secondary {
+      border: 1px solid #8d5cff;
+      color: white;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    section {
+      padding: 90px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 50px;
+    }
+
+    .section-title span {
+      color: #a77bff;
+    }
+
+    .about {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      color: #c9c9d4;
+      font-size: 18px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #151522;
+      border: 1px solid #29293b;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #8d5cff;
+    }
+
+    .card .icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #aaaaba;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .portfolio-box {
+      background: #151522;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #29293b;
+    }
+
+    .portfolio-box img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+
+    .portfolio-box h3 {
+      padding: 18px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #11111d;
+    }
+
+    .contact p {
+      color: #c9c9d4;
+      max-width: 600px;
+      margin: 0 auto 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #08080f;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 65px 5%;
+      }
+
+      .section-title {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HOME -->
+  <header id="home">
+    <div class="hero">
+
+      <div class="small-title">
+        GRAPHIC DESIGN • AI • CREATIVE
+      </div>
+
+      <h1>Hi, I'm <span>Bhavna</span></h1>
+
+      <h2>YouTube Thumbnail & Graphic Designer</h2>
+
+      <p>
+        I create eye-catching thumbnails, banners, social media graphics
+        and creative AI-powered visuals that help content stand out.
+      </p>
+
+      <div class="buttons">
+        <a href="#portfolio" class="btn primary">
+          View My Work
+        </a>
+
+        <a href="#contact" class="btn secondary">
+          Contact Me
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <h2 class="section-title">
+      About <span>Me</span>
+    </h2>
+
+    <div class="about">
+      <p>
+        Hi! I'm Bhavna, a creative Graphic Designer specializing in
+        YouTube thumbnails, YouTube banners, social media designs,
+        logos and AI-powered visual content.
+      </p>
+
+      <br>
+
+      <p>
+        I focus on clean designs, strong visuals and attention to detail
+        to create graphics that look professional and engaging.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services">
+
+    <h2 class="section-title">
+      My <span>Services</span>
+    </h2>
+
+    <div class="services">
+
+      <div class="card">
+        <div class="icon">🎬</div>
+        <h3>YouTube Thumbnails</h3>
+        <p>
+          Eye-catching thumbnails designed to make your videos stand out.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🖼️</div>
+        <h3>YouTube Banners</h3>
+        <p>
+          Modern channel banners that match your brand and content.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Graphic Design</h3>
+        <p>
+          Creative social media posts, graphics and promotional designs.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI Visual Design</h3>
+        <p>
+          Creative AI-powered visuals and image editing concepts.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+
+    <h2 class="section-title">
+      My <span>Portfolio</span>
+    </h2>
+
+    <div class="portfolio">
+
+      <!-- Replace these image links with your own images -->
+
+      <div class="portfolio-box">
+        <img src="thumbnail1.jpg" alt="YouTube Thumbnail Design">
+        <h3>YouTube Thumbnail Design</h3>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="thumbnail2.jpg" alt="AI Ads Thumbnail">
+        <h3>AI Ads Tutorial</h3>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="thumbnail3.jpg" alt="Creative Thumbnail">
+        <h3>Creative YouTube Design</h3>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="thumbnail4.jpg" alt="Video Thumbnail">
+        <h3>Video Thumbnail</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2 class="section-title">
+      Let's <span>Work Together</span>
+    </h2>
+
+    <p>
+      Need a professional YouTube thumbnail, banner or creative graphic?
+      Feel free to contact me.
+    </p>
+
+    <a
+      href="https://www.fiverr.com/bhavna_sharma78"
+      target="_blank"
+      class="btn primary">
+      Hire Me on Fiverr
+    </a>
+
+  </section>
+
+
+  <footer>
+    © 2026 Bhavna Sharma • Graphic Designer
+  </footer>
+
+</body>
+  </html>
